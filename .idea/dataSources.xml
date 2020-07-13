@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="bet_helper@35.226.243.75" uuid="a24826fa-2c51-4190-bcc5-7c5b66738a3c">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://35.226.243.75:5432/bet_helper</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="bet_helper@localhost" uuid="7e6a3532-2ed0-4599-8d74-052a620bbbb0">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5432/bet_helper</jdbc-url>
+    </data-source>
+  </component>
+</project>
