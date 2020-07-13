@@ -49,6 +49,7 @@ public class SpringConfig {
         // See: application.properties
         properties.put("hibernate.dialect", environment.getRequiredProperty("hibernate.dialect"));
         properties.put("hibernate.show_sql", environment.getRequiredProperty("hibernate.show_sql"));
+        properties.put("hibernate.autoReconnect", environment.getRequiredProperty("hibernate.autoReconnect"));
         LocalSessionFactoryBean factoryBean = new LocalSessionFactoryBean();
 
         // Package contain entity classes
